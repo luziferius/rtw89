@@ -13,9 +13,7 @@ repo, which is in the 5.16 kernel. IF YOU USE DRIVERS FROM THIS REPO FOR KERNELS
 5.16+, YOU MUST BLACKLIST THE KERNEL VERSIONS!!!! FAILING TO DO THIS WILL RESULT
 IN ALL MANNER OF STRANGE ERRORS.
 
-This code will build on any kernel 6.10 and newer as long as the distro has not modified
-any of the kernel APIs. IF YOU RUN UBUNTU, YOU CAN BE ASSURED THAT THE APIs HAVE CHANGED.
-NO, I WILL NOT MODIFY THE SOURCE FOR YOU. YOU ARE ON YOUR OWN!!!!!
+This code will build on Ubuntu Kernel 6.11.
 
 Note that if you use this driver on kernels older than 5.15, the enhanced features
 of  wifi 5 and wifi 6 are greatly crippled as the kernel does hot have the capability
